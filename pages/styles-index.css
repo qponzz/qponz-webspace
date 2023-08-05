@@ -1,0 +1,27 @@
+/* index-styles.css */
+
+h1 {
+    color: #FF44CC;
+
+    /* background-color: black */
+
+}
+
+.section_cent {
+   
+    text-align: center;
+
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    /*
+    margin-left: -150px;
+    margin-top: -100px;
+    */
+    border: 10px solid #FF44CC;
+    background-color: pink;
+}
