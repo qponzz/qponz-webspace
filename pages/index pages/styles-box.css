@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+.wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.section_cent {
+   
+  text-align: center;
+
+}
+
+.wrapper > div {
+  border: 2px solid rgb(255, 0, 200);
+  border-radius: 5px;
+  background-color: rgba(247, 159, 255, 0.5);
+  padding: 1em;
+  color: #000000;
+}
+
+.wrapper {
+  display: grid;
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.one {
+  grid-column: 1/4;
+  grid-row: 1;
+}
+.two {
+  grid-column: 2;
+  grid-row: 2;
+}
+.three {
+  grid-column: 3;
+  grid-row: 3;
+}
